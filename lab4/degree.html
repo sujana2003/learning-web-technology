@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Degree Selection</title>
+    <script src="5.degree.js"></script>
+</head>
+<body>
+    <b>Degree</b>
+    <form onsubmit="return validateDegree()">
+        <input type="checkbox" name="degree" value="SSC">
+        <label>SSC</label>
+ 
+        <input type="checkbox" name="degree" value="HSC">
+        <label>HSC</label>
+ 
+        <input type="checkbox" name="degree" value="BSC">
+        <label>BSC</label><br><br>
+ 
+        <button type="submit">Submit</button>
+        <div id="degreeError" style="color:red"></div>
+    </form>
+</body>
+</html>
